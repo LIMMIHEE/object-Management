@@ -1,0 +1,16 @@
+{
+  "OBJ":[
+    {
+      "name":"물건1",
+      "text":"테스트버튼",
+      "icon_img":"test_btn.png",
+      "ratingBar":2.0
+    },
+    {
+      "name":"물건2",
+      "text":"테스트버튼2",
+      "icon_img":"test_btn.png",
+      "ratingBar":3.0
+    }
+  ]
+}

@@ -9,24 +9,39 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.RatingBar;
 import android.widget.SearchView;
 import android.widget.Toast;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 
 public class MainActivity extends AppCompatActivity {
     private SearchView searchView ;
     private Context context;
     private Button button;
+    private RatingBar ratingBar;
     //private FloatingActionButton floatingActionButton;
     private Animation fab_open, fab_close;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
         context=getApplicationContext();
         button = (Button)findViewById(R.id.add_btn);
+        ratingBar = (RatingBar)findViewById(R.id.ratingBar);
+        class Listener implements RatingBar.OnRatingBarChangeListener
+        {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
+                ratingBar.setRating(rating);
+            }
+        }
         fab_open = AnimationUtils.loadAnimation(context,R.anim.fab_open);
         fab_close = AnimationUtils.loadAnimation(context,R.anim.fab_close);
 
