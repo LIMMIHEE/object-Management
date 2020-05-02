@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+    <!--    android:fillAfter="true" <- 애니메이션 사용 여부-->
+    <scale
+        android:duration="300"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.8"
+        android:toYScale="0.8" />
+
+    <alpha
+
+        android:duration="300"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0" />
+    <!--    duration: 효과 시간
+        fromXScale : X의 시작 크기   /  fromYScale : Y의 시작 크기
+        Interpolator : 시작시점과 종료시점까지의 변화 과정을 어떤식으로 표현 할 것 인가
+        pivotX : X 좌표의 중심점 / pivotY : Y 좌표의 중심점
+        toXScale : X의 끝 크기 / toYScale : Y의 끝 크기
+    -->
+
+</set>
