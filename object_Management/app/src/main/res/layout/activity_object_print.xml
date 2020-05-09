@@ -36,10 +36,10 @@
     <RatingBar
         android:id="@+id/ratingBar"
         style="@style/Widget.AppCompat.RatingBar.Indicator"
-        android:layout_width="185dp"
+        android:layout_width="181dp"
         android:layout_height="45dp"
         android:layout_marginTop="208dp"
-        android:isIndicator="true"
+        android:isIndicator="false"
         android:numStars="5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.11"

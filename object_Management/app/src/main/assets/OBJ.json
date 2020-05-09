@@ -1,15 +1,15 @@
 {
   "OBJ":[
     {
-      "name":"물건1",
-      "text":"테스트버튼",
-      "icon_img":"test_btn.png",
+      "name":"좋아보이는 볼펜! ( 3종 )",
+      "text":"배송비 포함 6500원",
+      "link":"https://smartstore.naver.com/dansoonlife/products/3812087125?NaPm=ct%3Dk9zm7uo8%7Cci%3De101193486db987883d7e51f81ebfed3d2cdea09%7Ctr%3Dsls%7Csn%3D278078%7Chk%3Dbf642eeecdb8ff1394d82406c02eaa9bbd069770",
       "ratingBar":2.0
     },
     {
-      "name":"물건2",
-      "text":"테스트버튼2",
-      "icon_img":"test_btn.png",
+      "name":"필기구 세트",
+      "text":"세트 2살까 고민중~",
+      "link":"https://smartstore.naver.com/dansoonlife/products/4205072327",
       "ratingBar":3.0
     }
   ]
